@@ -31,3 +31,7 @@ export const Background = ({ children }: Props) => {
 }
 
 {/* <LinearGradient start={{x: 0, y: 1}} end={{x: 1, y: 0}}  colors={colors} className="flex-1 justify"> */}
+
+
+// Aprender Animações no react native
+// Aprender Transições ne css no react native
