@@ -1,6 +1,6 @@
+import { CheckBox } from '@/components/Form/CheckBox';
 import { useState } from 'react';
 import { Text, TouchableOpacity } from 'react-native';
-import { CheckBox } from '../Form/CheckBox';
 
 interface Props {
   className?: string
