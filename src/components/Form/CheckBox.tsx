@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Text, TouchableOpacity, View } from "react-native";
-import { CheckedSvg } from "../svg/CheckedSvg";
+import { CheckedSvg } from "../Svg/Checked";
 
 interface Props {
   checked?: boolean

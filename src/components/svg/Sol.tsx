@@ -1,12 +1,7 @@
-import { Circle, G, GProps, Path, Svg } from 'react-native-svg';
+import { Circle, G, Path, Svg } from 'react-native-svg';
+import { ComumPropsSvg } from './type';
 
-interface Props extends GProps {
-  width: string,
-  height: string,
-  className: string
-}
-
-export const SolSvg = (props: Props) => {
+export const SolSvg = (props: ComumPropsSvg) => {
   
   return (
     <Svg  {...props} viewBox="0 0 64 64">

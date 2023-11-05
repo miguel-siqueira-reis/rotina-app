@@ -1,7 +1,7 @@
 import { Path, Svg } from "react-native-svg"
-import { ComumProps as Props } from "./type"
+import { ComumPropsSvg } from "./type"
 
-export const NuvemSvg = (props: Props) => {
+export const NuvemSvg = (props: ComumPropsSvg) => {
   const color = props.color || "white"
 
   return (

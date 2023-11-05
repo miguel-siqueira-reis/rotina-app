@@ -1,8 +1,8 @@
 // import { LinearGradient } from 'expo-linear-gradient';
 import { useState } from 'react';
 import { View } from "react-native";
-import { NuvemSvg } from "../svg/NuvemSvg";
-import { SolSvg } from "../svg/SolSvg";
+import { NuvemSvg } from "../Svg/Nuvem";
+import { SolSvg } from "../Svg/Sol";
 
 interface Props {
   children: React.ReactNode

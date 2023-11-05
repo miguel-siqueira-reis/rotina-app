@@ -1,6 +1,6 @@
-import { GProps } from 'react-native-svg';
+import { SvgProps } from 'react-native-svg';
 
-export interface ComumProps extends GProps {
+export interface ComumPropsSvg extends SvgProps {
   width: string;
   height: string;
   className?: string;

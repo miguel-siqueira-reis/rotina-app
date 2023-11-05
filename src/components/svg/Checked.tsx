@@ -1,7 +1,7 @@
 import { Path, Svg } from "react-native-svg";
-import { ComumProps } from "./type";
+import { ComumPropsSvg } from "./type";
 
-export const CheckedSvg = (props: ComumProps) => {
+export const CheckedSvg = (props: ComumPropsSvg) => {
 
   return (
     <Svg viewBox="0 0 24 24" {...props} stroke={props.color ?? 'white'} stroke-width="3" fill="none">

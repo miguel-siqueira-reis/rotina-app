@@ -1,7 +1,7 @@
 import { Path, Svg } from "react-native-svg";
-import { ComumProps } from "./type";
+import { ComumPropsSvg } from "./type";
 
-export const EditSvg = (props: ComumProps) => {
+export const EditSvg = (props: ComumPropsSvg) => {
 
   return (
     <Svg viewBox="0 0 24 24" {...props} stroke={props.color ?? 'white'} stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
